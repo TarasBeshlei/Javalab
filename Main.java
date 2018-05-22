@@ -4,11 +4,11 @@ public class Main{
 
     public static void main(String[] args) {
 
-        Book1 Potter = new Book1();
+        Book Potter = new Book();
 
-        Book1 Witcher = new Book1("The Witcher", 30, 85,"Andrzej Sapkowski");
+        Book Witcher = new Book("The Witcher", 30, 85,"Andrzej Sapkowski");
 
-        Book1 King = new Book1("11.22.63", 10,100, "solid", "Stephen King");
+        Book King = new Book("11.22.63", 10,100, "solid", "Stephen King");
 
         Potter.setBookname("Harry Potter");
         Potter.setAmount(30);
@@ -18,7 +18,7 @@ public class Main{
         System.out.println(Potter);
         System.out.println(Witcher);
         System.out.println(King);
-        Book1.printStaticSum();
+        Book.printStaticSum();
         Potter.printSum();
         Witcher.printSum();
         King.printSum();
@@ -28,7 +28,7 @@ public class Main{
         System.out.println(Potter);
         System.out.println(Witcher);
         System.out.println(King);
-        Book1.printStaticSum();
+        Book.printStaticSum();
         Potter.printSum();
         Witcher.printSum();
         King.printSum();
