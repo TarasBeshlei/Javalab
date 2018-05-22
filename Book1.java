@@ -8,11 +8,11 @@ public class Book1 {
     private String author;
     public static int totalPrice = 0;
 
-    public Book1() {
+    public Book() {
 
     }
 
-    public Book1(String bookname, int amount, int price, String author){
+    public Book(String bookname, int amount, int price, String author){
         this.bookname = bookname;
         this.amount = amount;
         this.price = price;
@@ -23,7 +23,7 @@ public class Book1 {
 
 
 
-    public Book1(String bookname, int amount, int price, String covertype, String author){
+    public Book(String bookname, int amount, int price, String covertype, String author){
         this.bookname = bookname;
         this.amount = amount;
         this.price = price;
