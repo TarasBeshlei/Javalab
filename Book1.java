@@ -1,6 +1,6 @@
 package com.company;
 
-public class Book1 {
+public class Book {
     private String bookname;
     private int amount;
     private int price;
